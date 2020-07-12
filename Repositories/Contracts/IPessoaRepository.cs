@@ -12,5 +12,7 @@ namespace Monster.Repositories.Contracts
         public void AddPessoas(string nome, int idade);
 
         public void DeletePessoas(int id);
+
+        public Pessoa EditPessoas(int id, string nome = "", int idade = 0);
     }
 }
